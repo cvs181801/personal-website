@@ -1,0 +1,22 @@
+:root {
+    --white: white;
+    --black: black;
+    --ff-accent: 'Comfortaa', sans-serif;
+    --ff-main: 'Nunito Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: var(--ff-accent);
+    text-align: center;
+
+}
+
+h1 {
+    font-family: var(--ff-accent);
+}
