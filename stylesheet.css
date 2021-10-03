@@ -1,6 +1,6 @@
 :root {
-    --white: white;
-    --black: black;
+    --white: rgb(250, 234, 234);
+    --black: rgb(14, 13, 13);
     --ff-accent: 'Comfortaa', sans-serif;
     --ff-main: 'Nunito Sans', sans-serif;
 }
@@ -14,7 +14,8 @@ body {
     padding: 0;
     font-family: var(--ff-accent);
     text-align: center;
-
+    background-color: var(--white);
+    color: var(--black);
 }
 
 h1 {
