@@ -89,7 +89,7 @@ h1 {
 }
 
 .project5 {
-    background-color: rgb(27, 218, 27);
+    background-color: rgb(21, 241, 105);
     grid-area: project5;
     border-radius: 7px;
     padding: 3em .5em 3em .5em;
@@ -97,15 +97,15 @@ h1 {
 }
 
 .project6 {
-    background-color: hotpink;
+    background-color: rgb(175, 122, 122);
     grid-area: project6;
-    border: 1px solid greenyellow;
+    border-radius: 7px;
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
 }
 
 .project7 {
-    background-color: violet;
+    background-color: hotpink;
     grid-area: project7;
     border-radius: 7px;
     padding: 3em .5em 3em .5em;
@@ -113,7 +113,7 @@ h1 {
 }
 
 .project8 {
-    background-color: teal;
+    background-color: rgb(4, 167, 167);
     grid-area: project8;
     border-radius: 7px;
     padding: 3em .5em 3em .5em;
