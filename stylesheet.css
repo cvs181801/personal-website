@@ -68,7 +68,7 @@ h1 {
 }
 
 .project2 {
-    background-color: navy;
+    background-color: rgb(36, 36, 218);
     grid-area: project2;
     border-radius: 7px;
     padding: 3em .5em 3em .5em;
@@ -139,7 +139,7 @@ h1 {
 .project7 > a:link,
 .project8 > a:link {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .project1 > a:visited,
