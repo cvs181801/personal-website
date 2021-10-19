@@ -26,85 +26,97 @@ h1 {
 
 .container-div {
     display: grid;
-    grid-template-columns: minmax(8em, 8em) minmax(20em, 20em) minmax(17em, 17em) minmax(18em, 18em) minmax(7em, 7em);
+    grid-template-columns: minmax(1em, 5em) minmax(2em, 10em) minmax(.5em, 5em) minmax(7em, 10em) minmax(1em, 8em) minmax(2em, 4em) minmax(.5em, 1em);
     grid-template-areas: 
-        "header header project1 project2 ......"
-        "...... subheader project3 project4 ......"
-        "project5 project6 project3 project7 ......"
-        "project5 ...... project8 project8 ......";
+        "header header header header project1 project2 project2"
+        "...... subheader subheader project3 project3 project4 ....."
+        "project5 project5 ..... project6 project7 ...... ....."
+        "..... ...... project8 project8 ..... ...... .....";
     grid-gap: 1em; 
-    margin: 0 auto;
+    margin: 1em auto 0 auto;
     justify-content: center;
     text-align: center; 
     align-items: center;
+    font-size: 1rem;
 }
 
 .header-div {
     background-color: red;
     grid-area: header;
-    border: 1px solid greenyellow;
     padding: 5em .5em 5em .5em;
+    border-radius: 7px;
+    box-shadow: -10px 10px 5px grey;
 }
 
 .subtitle-div {
-        background-color: rgb(252, 119, 11);
-        grid-area: subheader;
-        border: 1px solid greenyellow;
-        padding: 5em .5em 5em .5em;
+    background-color: rgb(252, 119, 11);
+    grid-area: subheader;
+    padding: 3em .5em 3em .5em;
+    border-radius: 7px;
+    box-shadow: -10px 10px 5px grey;
 }
 
 .project1 {
     background-color: var(--cocoa-taupe);
     grid-area: project1;
-    border: 1px solid greenyellow;
-    padding: 5em .5em 5em .5em;
+    padding: 3em .5em 3em .5em;
+    border-radius: 7px;
+    box-shadow: -10px 10px 5px grey;
 }
 
 .project2 {
     background-color: navy;
     grid-area: project2;
-    border: 1px solid greenyellow;
-    padding: 5em .5em 5em .5em;
+    border-radius: 7px;
+    padding: 3em .5em 3em .5em;
+    box-shadow: -10px 10px 5px grey;
 }
 
 .project3 {
     background-color: yellow;
     grid-area: project3;
-    border: 1px solid greenyellow;
-    padding: 5em .5em 5em .5em;
+    border-radius: 7px;
+    padding: 3em .5em 3em .5em;
+    box-shadow: -10px 10px 5px grey;
 }
 
 .project4 {
     background-color: aqua;
     grid-area: project4;
-    border: 1px solid greenyellow;
-    padding: 5em .5em 5em .5em;
+    border-radius: 7px;
+    padding: 3em .5em 3em .5em;
+    box-shadow: -10px 10px 5px grey;
 }
 
 .project5 {
     background-color: rgb(27, 218, 27);
     grid-area: project5;
-    border: 1px solid greenyellow;
-    padding: 5em .5em 5em .5em;
+    border-radius: 7px;
+    padding: 3em .5em 3em .5em;
+    box-shadow: -10px 10px 5px grey;
 }
 
 .project6 {
     background-color: hotpink;
     grid-area: project6;
     border: 1px solid greenyellow;
-    padding: 5em .5em 5em .5em;
+    padding: 3em .5em 3em .5em;
+    box-shadow: -10px 10px 5px grey;
 }
 
 .project7 {
     background-color: violet;
     grid-area: project7;
-    border: 1px solid greenyellow;
-    padding: 5em .5em 5em .5em;
+    border-radius: 7px;
+    padding: 3em .5em 3em .5em;
+    box-shadow: -10px 10px 5px grey;
 }
 
 .project8 {
     background-color: teal;
     grid-area: project8;
-    border: 1px solid greenyellow;
-    padding: 5em .5em 5em .5em;
+    border-radius: 7px;
+    padding: 3em .5em 3em .5em;
+    box-shadow: -10px 10px 5px grey;
 }
+
