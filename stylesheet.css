@@ -46,6 +46,7 @@ h1 {
     padding: 5em .5em 5em .5em;
     border-radius: 7px;
     box-shadow: -10px 10px 5px grey;
+    cursor: pointer;
 }
 
 .subtitle-div {
@@ -54,6 +55,7 @@ h1 {
     padding: 3em .5em 3em .5em;
     border-radius: 7px;
     box-shadow: -10px 10px 5px grey;
+    cursor: pointer;
 }
 
 .project1 {
@@ -62,6 +64,7 @@ h1 {
     padding: 3em .5em 3em .5em;
     border-radius: 7px;
     box-shadow: -10px 10px 5px grey;
+    cursor: pointer;
 }
 
 .project2 {
@@ -70,6 +73,7 @@ h1 {
     border-radius: 7px;
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
+    cursor: pointer;
 }
 
 .project3 {
@@ -78,6 +82,7 @@ h1 {
     border-radius: 7px;
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
+    cursor: pointer;
 }
 
 .project4 {
@@ -86,6 +91,7 @@ h1 {
     border-radius: 7px;
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
+    cursor: pointer;
 }
 
 .project5 {
@@ -94,6 +100,7 @@ h1 {
     border-radius: 7px;
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
+    cursor: pointer;
 }
 
 .project6 {
@@ -102,6 +109,7 @@ h1 {
     border-radius: 7px;
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
+    cursor: pointer;
 }
 
 .project7 {
@@ -110,6 +118,7 @@ h1 {
     border-radius: 7px;
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
+    cursor: pointer;
 }
 
 .project8 {
@@ -118,5 +127,52 @@ h1 {
     border-radius: 7px;
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
+    cursor: pointer;
+}
+
+.project1 > a:link,
+.project2 > a:link,
+.project3 > a:link,
+.project4 > a:link,
+.project5 > a:link,
+.project6 > a:link,
+.project7 > a:link,
+.project8 > a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.project1 > a:visited,
+.project2 > a:visited,
+.project3 > a:visited,
+.project4 > a:visited,
+.project5 > a:visited,
+.project6 > a:visited,
+.project7 > a:visited,
+.project8 > a:visited {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.project1 > a:hover,
+.project2 > a:hover,
+.project3 > a:hover,
+.project4 > a:hover,
+.project5 > a:hover,
+.project6 > a:hover,
+.project7 > a:hover,
+.project8 > a:hover {
+    text-decoration: none;
+}
+
+.project1 > a:active,
+.project2 > a:active,
+.project3 > a:active,
+.project4 > a:active,
+.project5 > a:active,
+.project6 > a:active,
+.project7 > a:active,
+.project8 > a:active {
+    text-decoration: none;
 }
 
