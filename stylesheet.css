@@ -1,6 +1,7 @@
 :root {
     --white: rgb(250, 234, 234);
     --black: rgb(14, 13, 13);
+    --cocoa-taupe: rgb(122, 107, 114);
     --ff-accent: 'Comfortaa', sans-serif;
     --ff-main: 'Nunito Sans', sans-serif;
 }
@@ -25,60 +26,85 @@ h1 {
 
 .container-div {
     display: grid;
-    grid-template-columns: 1.5em minmax(10em, 10em) minmax(7em, 7em) minmax(8em, 8em);
+    grid-template-columns: minmax(20em, 20em) minmax(17em, 17em) minmax(18em, 18em);
     grid-template-areas: 
         "header project1 project2"
         "subheader project3 project4"
         "project5 project6 project7"
-        "project8 ... ..."  
+        "project8 ...... ......";
+    grid-gap: 1em; 
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center; 
+    align-items: center;
 }
 
 .header-div {
-    background-color: rgb(122, 107, 114);
+    background-color: red;
     grid-area: header;
+    border: 1px solid greenyellow;
+    padding: 5em .5em 5em .5em;
 }
 
 .subtitle-div {
         background-color: rgba(247, 152, 114, 0.925);
         grid-area: subheader;
+        border: 1px solid greenyellow;
+        padding: 5em .5em 5em .5em;
 }
 
 .project1 {
-    background-color: red;
+    background-color: var(--cocoa-taupe);
     grid-area: project1;
+    border: 1px solid greenyellow;
+    padding: 5em .5em 5em .5em;
 }
 
 .project2 {
     background-color: navy;
     grid-area: project2;
+    border: 1px solid greenyellow;
+    padding: 5em .5em 5em .5em;
 }
 
 .project3 {
     background-color: yellow;
     grid-area: project3;
+    border: 1px solid greenyellow;
+    padding: 5em .5em 5em .5em;
 }
 
 .project4 {
     background-color: aqua;
     grid-area: project4;
+    border: 1px solid greenyellow;
+    padding: 5em .5em 5em .5em;
 }
 
 .project5 {
-    background-color: green;
+    background-color: rgb(27, 218, 27);
     grid-area: project5;
+    border: 1px solid greenyellow;
+    padding: 5em .5em 5em .5em;
 }
 
 .project6 {
     background-color: hotpink;
     grid-area: project6;
+    border: 1px solid greenyellow;
+    padding: 5em .5em 5em .5em;
 }
 
 .project7 {
     background-color: violet;
     grid-area: project7;
+    border: 1px solid greenyellow;
+    padding: 5em .5em 5em .5em;
 }
 
 .project8 {
     background-color: teal;
     grid-area: project8;
+    border: 1px solid greenyellow;
+    padding: 5em .5em 5em .5em;
 }
