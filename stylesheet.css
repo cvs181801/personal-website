@@ -25,12 +25,12 @@ h1 {
 
 .container-div {
     display: grid;
-    grid-template-columns: 1.5em minmax(10em, 10em) minmax (7em, 7em);
+    grid-template-columns: 1.5em minmax(10em, 10em) minmax(7em, 7em) minmax(8em, 8em);
     grid-template-areas: 
         "header project1 project2"
         "subheader project3 project4"
         "project5 project6 project7"
-        "project8"  
+        "project8 ... ..."  
 }
 
 .header-div {
