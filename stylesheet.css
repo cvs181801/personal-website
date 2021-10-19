@@ -26,12 +26,12 @@ h1 {
 
 .container-div {
     display: grid;
-    grid-template-columns: minmax(20em, 20em) minmax(17em, 17em) minmax(18em, 18em);
+    grid-template-columns: minmax(8em, 8em) minmax(20em, 20em) minmax(17em, 17em) minmax(18em, 18em) minmax(7em, 7em);
     grid-template-areas: 
-        "header project1 project2"
-        "subheader project3 project4"
-        "project5 project6 project7"
-        "project8 ...... ......";
+        "header header project1 project2 ......"
+        "...... subheader project3 project4 ......"
+        "project5 project6 project3 project7 ......"
+        "project5 ...... project8 project8 ......";
     grid-gap: 1em; 
     margin: 0 auto;
     justify-content: center;
@@ -47,7 +47,7 @@ h1 {
 }
 
 .subtitle-div {
-        background-color: rgba(247, 152, 114, 0.925);
+        background-color: rgb(252, 119, 11);
         grid-area: subheader;
         border: 1px solid greenyellow;
         padding: 5em .5em 5em .5em;
