@@ -1,7 +1,7 @@
 :root {
     --white: rgb(250, 234, 234);
     --black: rgb(14, 13, 13);
-    --cocoa-taupe: rgb(122, 107, 114);
+    --cocoa-taupe: rgb(170, 157, 163);
     --ff-accent: 'Comfortaa', sans-serif;
     --ff-main: 'Nunito Sans', sans-serif;
     --ff-accent2: 'Righteous', sans-serif;
@@ -31,14 +31,17 @@ h1 > span {
 
 .container-div {
     display: grid;
-    grid-template-columns: minmax(1em, 5em) minmax(1em, 7em) minmax(.5em, 5em) minmax(7em, 10em) minmax(1em, 8em) minmax(2em, 4em) minmax(.5em, 1em);
+    grid-template-columns: minmax(2em, 5em) minmax(2em, 7em) minmax(2em, 5em);
     grid-template-areas: 
-        "header header header header subheader subheader subheader"
-        "....... project1 project2 project3 ...... project4 ....."
-        "project5 project5 ..... project6 project7 ...... ....."
-        "..... ...... project8 project8 ..... ...... .....";
+        "header header ....."
+        "..... subheader subheader"
+        "project1 project2 ....." 
+        "project1 project3 project4"
+        "project5 project5 ....."
+        "project6 project7 ......"
+        "..... project8 project8";
     grid-gap: 1.5em; 
-    margin: 1em auto 1em auto;
+    margin: 1em;
     justify-content: center;
     text-align: center; 
     align-items: center;
@@ -77,11 +80,9 @@ h1 > span {
     padding: 2.5em .5em 2.5em .5em;
     border-radius: 7px;
     box-shadow: -10px 10px 5px grey;
-    cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    justify-content: center;
-    
+    font-size: .7rem;
 }
 
 .project2 {
@@ -90,9 +91,9 @@ h1 > span {
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .2rem;
+    color: white;
 }
 
 .project3 {
@@ -101,7 +102,6 @@ h1 > span {
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .2rem;
 }
@@ -112,7 +112,6 @@ h1 > span {
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .2rem;
 }
@@ -123,7 +122,6 @@ h1 > span {
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .2rem;
 }
@@ -134,9 +132,9 @@ h1 > span {
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .2rem;
+    font-size: .7rem;
 }
 
 .project7 {
@@ -145,75 +143,255 @@ h1 > span {
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .2rem;
 }
 
 .project8 {
-    background-color: rgb(4, 167, 167);
+    background-color: rgb(3, 71, 80);
     grid-area: project8;
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .2rem;
+    color: white;
+    font-size: .7rem;
 }
 
 .project4__p,
-.project1__p {
+.project1__p,
+.project6__p {
     writing-mode: vertical-rl;
 } 
 
-/* .project1__p {
-    font-size: .5rem;
-} */
+/*~~ Anchor/link styling ~~*/
 
-
-.project4__p >a:link,
 .project1__p > a:link,
-.project2 > a:link,
-.project3 > a:link,
-.project5 > a:link,
-.project6 > a:link,
-.project7 > a:link,
-.project8 > a:link {
+.project3__p > a:link,
+.project4__p > a:link,
+.project5__p > a:link,
+.project6__p > a:link,
+.project7__p > a:link {
     text-decoration: none;
     color: black;
 }
 
-.project4__p >a:visited,
-.project1__p > a:visited,
-.project2 > a:visited,
-.project3 > a:visited,
-.project5 > a:visited,
-.project6 > a:visited,
-.project7 > a:visited,
-.project8 > a:visited {
+.project2__p > a:link,
+.project8__p > a:link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.project1__p >a:visited,
+.project3__p > a:visited,
+.project4__p > a:visited,
+.project5__p > a:visited,
+.project6__p > a:visited,
+.project7__p > a:visited {
     text-decoration: none;
     color: black;
 }
 
-.project4__p >a:hover,
-.project1__p > a:hover,
-.project2 > a:hover,
-.project3 > a:hover,
-.project5 > a:hover,
-.project6 > a:hover,
-.project7 > a:hover,
-.project8 > a:hover {
+.project2__p > a:visited,
+.project8__p > a:visited 
+{
+    text-decoration: none;
+    color: white;
+}
+
+.project1__p >a:hover,
+.project3__p > a:hover,
+.project4__p > a:hover,
+.project5__p > a:hover,
+.project6__p > a:hover,
+.project7__p > a:hover { 
     text-decoration: none;
 }
 
-.project4__p > a:active,
+.project2__p > a:hover,
+.project8__p > a:hover {
+    text-decoration: none;
+}
+
 .project1__p > a:active,
-.project2 > a:active,
-.project3 > a:active,
-.project5 > a:active,
-.project6 > a:active,
-.project7 > a:active,
-.project8 > a:active {
+.project3__p > a:active,
+.project4__p > a:active,
+.project5__p > a:active,
+.project6__p > a:active,
+.project7__p > a:active {
     text-decoration: none;
 }
 
+.project2__p > a:active,
+.project8__p > a:active {
+    text-decoration: none;
+}
+
+@media (min-width: 800px) {
+
+    body {
+        margin: 0 auto;
+        padding: 0;
+        font-family: var(--ff-accent);
+        
+        text-align: center;
+        color: var(--black);
+        min-height: 100vh;
+    }
+    
+    h1 {
+        font-family: var(--ff-accent);
+    }
+    
+    h1 > span {
+        font-size: 1rem;
+    }
+    
+    .container-div {
+        display: grid;
+        grid-template-columns: minmax(1em, 5em) minmax(1em, 7em) minmax(.5em, 5em) minmax(7em, 10em) minmax(1em, 8em) minmax(2em, 4em) minmax(.5em, 1em);
+        grid-template-areas: 
+            "header header header header subheader subheader subheader"
+            "....... project1 project2 project3 ...... project4 ....."
+            "project5 project5 ..... project6 project7 ...... ....."
+            "..... ...... project8 project8 ..... ...... .....";
+        grid-gap: 1.5em; 
+        margin: 1em auto 1em auto;
+        justify-content: center;
+        text-align: center; 
+        align-items: center;
+        font-size: 1rem;
+        max-height: 100vh;
+        max-width: 100vw;
+    
+    }
+    
+    .header-div {
+        background-color: red;
+        grid-area: header;
+        padding: 2.5em .5em 2.5em .5em;
+        border-radius: 7px;
+        box-shadow: -10px 10px 5px grey;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+    }
+    
+    .subtitle-div {
+        background-color: rgb(252, 119, 11);
+        grid-area: subheader;
+        padding: 2.5em .5em 2.5em .5em;
+        border-radius: 7px;
+        box-shadow: -10px 10px 5px grey;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-size: .7rem;
+    }
+    
+    .project1 {
+        background-color: var(--cocoa-taupe);
+        grid-area: project1;
+        padding: 2.5em .5em 2.5em .5em;
+        border-radius: 7px;
+        box-shadow: -10px 10px 5px grey;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        justify-content: center;
+        font-size: 1rem;
+        
+    }
+    
+    .project2 {
+        background-color: rgb(36, 36, 218);
+        grid-area: project2;
+        border-radius: 7px;
+        padding: 2.5em .5em 2.5em .5em;
+        box-shadow: -10px 10px 5px grey;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+    }
+    
+    .project3 {
+        background-color: yellow;
+        grid-area: project3;
+        border-radius: 7px;
+        padding: 2.5em .5em 2.5em .5em;
+        box-shadow: -10px 10px 5px grey;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+    }
+    
+    .project4 {
+        background-color: aqua;
+        grid-area: project4;
+        border-radius: 7px;
+        padding: 2.5em .5em 2.5em .5em;
+        box-shadow: -10px 10px 5px grey;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+    }
+    
+    .project5 {
+        background-color: rgb(21, 241, 105);
+        grid-area: project5;
+        border-radius: 7px;
+        padding: 2.5em .5em 2.5em .5em;
+        box-shadow: -10px 10px 5px grey;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+    }
+    
+    .project6 {
+        background-color: rgb(175, 122, 122);
+        grid-area: project6;
+        border-radius: 7px;
+        padding: 2.5em .5em 2.5em .5em;
+        box-shadow: -10px 10px 5px grey;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-size: 1rem;
+    }
+    
+    .project7 {
+        background-color: hotpink;
+        grid-area: project7;
+        border-radius: 7px;
+        padding: 2.5em .5em 2.5em .5em;
+        box-shadow: -10px 10px 5px grey;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+    }
+    
+    .project8 {
+        background-color: rgb(4, 167, 167);
+        grid-area: project8;
+        border-radius: 7px;
+        padding: 2.5em .5em 2.5em .5em;
+        box-shadow: -10px 10px 5px grey;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-size: 1rem;
+    }
+    
+    .project4__p,
+    .project1__p {
+        writing-mode: vertical-rl;
+    } 
+
+    .project6__p {
+        writing-mode: horizontal-tb;
+    }
+    
+
+}
