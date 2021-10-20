@@ -25,13 +25,14 @@ h1 {
     font-family: var(--ff-accent);
 }
 
-h1 > span {
+h1 > p {
     font-size: 1rem;
+    
 }
 
 .container-div {
     display: grid;
-    grid-template-columns: minmax(2em, 5em) minmax(2em, 7em) minmax(2em, 5em);
+    grid-template-columns: minmax(1em, 5em) minmax(2em, 7em) minmax(2em, 5em);
     grid-template-areas: 
         "header header ....."
         "..... subheader subheader"
