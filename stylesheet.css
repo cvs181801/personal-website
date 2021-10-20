@@ -4,6 +4,7 @@
     --cocoa-taupe: rgb(122, 107, 114);
     --ff-accent: 'Comfortaa', sans-serif;
     --ff-main: 'Nunito Sans', sans-serif;
+    --ff-accent2: 'Righteous', sans-serif;
 }
 
 * {
@@ -33,11 +34,12 @@ h1 {
         "project5 project5 ..... project6 project7 ...... ....."
         "..... ...... project8 project8 ..... ...... .....";
     grid-gap: 1em; 
-    margin: 1em auto 0 auto;
+    margin: 1em auto 1em auto;
     justify-content: center;
     text-align: center; 
     align-items: center;
     font-size: 1rem;
+
 }
 
 .header-div {
@@ -47,6 +49,8 @@ h1 {
     border-radius: 7px;
     box-shadow: -10px 10px 5px grey;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
 }
 
 .subtitle-div {
@@ -56,6 +60,8 @@ h1 {
     border-radius: 7px;
     box-shadow: -10px 10px 5px grey;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
 }
 
 .project1 {
@@ -65,6 +71,9 @@ h1 {
     border-radius: 7px;
     box-shadow: -10px 10px 5px grey;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+
 }
 
 .project2 {
@@ -74,6 +83,8 @@ h1 {
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
 }
 
 .project3 {
@@ -83,6 +94,8 @@ h1 {
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
 }
 
 .project4 {
@@ -92,6 +105,8 @@ h1 {
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
 }
 
 .project5 {
@@ -101,6 +116,8 @@ h1 {
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
 }
 
 .project6 {
@@ -110,6 +127,8 @@ h1 {
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
 }
 
 .project7 {
@@ -119,6 +138,8 @@ h1 {
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
 }
 
 .project8 {
@@ -128,6 +149,8 @@ h1 {
     padding: 3em .5em 3em .5em;
     box-shadow: -10px 10px 5px grey;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
 }
 
 .project1 > a:link,
@@ -151,7 +174,7 @@ h1 {
 .project7 > a:visited,
 .project8 > a:visited {
     text-decoration: none;
-    color: aquamarine;
+    color: black;
 }
 
 .project1 > a:hover,
