@@ -109,6 +109,12 @@ h1 {
     letter-spacing: .2rem;
 }
 
+.project4__p,
+.project1__p {
+    writing-mode: vertical-rl;
+} 
+
+
 .project5 {
     background-color: rgb(21, 241, 105);
     grid-area: project5;
