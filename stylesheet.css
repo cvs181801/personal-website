@@ -86,6 +86,11 @@ h1 > p {
     font-size: .7rem;
 }
 
+.project1:hover {
+    transform: translate3d(.8em, -0.8em, .8em);
+    transition: all 1s ease-in-out;
+}
+
 .project2 {
     background-color: rgb(36, 36, 218);
     grid-area: project2;
@@ -139,7 +144,7 @@ h1 > p {
 }
 
 .project7 {
-    background-color: hotpink;
+    background-color: rgb(253, 4, 87);
     grid-area: project7;
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
