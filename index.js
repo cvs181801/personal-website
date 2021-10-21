@@ -1,16 +1,14 @@
 //grab elements from the DOM
 const cubes = document.querySelectorAll(".cube");
 
-
-for (cube=0; cube < cubes.length; cube++) {
-            cubes[cube].addEventListener("mouseover", function() {
-                //cubes[cube].style.transform = "translate3d(.8em, -0.8em, .8em)";
-                //cubes[cube].style.transition = "all 1s ease-in-out";
-                console.log("hovered")
+cubes.forEach(cube => {
+            cube.addEventListener("mouseover", function() {
+                cube.style.transform = "translate3d(.8em, -0.5em, .8em)";
+                cube.style.transition = "all .5s ease-in-out";
             })
-}
+            cube.addEventListener("mouseout", function() {
+                cube.style.transform = "translate3d(-0.8em, .5em, -0.8em)";
+                cube.style.transition = "all .5s ease-in-out";  
+            })
+})
 
-// .project1:hover {
-//     transform: translate3d(.8em, -0.8em, .8em);
-//     transition: all 1s ease-in-out;
-// }
