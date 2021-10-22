@@ -5,6 +5,7 @@
     --ff-accent: 'Comfortaa', sans-serif;
     --ff-main: 'Nunito Sans', sans-serif;
     --ff-accent2: 'Righteous', sans-serif;
+    --ff-monospace: 'Major Mono Display', monospace;
 }
 
 * {
@@ -55,18 +56,31 @@ h1 > p {
     position: absolute;
     width: 8em;
     height: 8em;
-    border: 1px solid greenyellow;
+    color:greenyellow;
     left: 1.5em;
     top: .5em;
     border-radius: 50%;
+    font-family: var(--ff-monospace);
+    animation: rotateText 10s linear indefinite;
+}
+
+@keyframes rotateText {
+    0%
+    {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0%);
+    }
 }
 
 .contact__image--text-p > span {
-    border: 1px solid violet;
+   
+    height: 2em;
     position: absolute;
     left: 50%;
     top: -1em;
-    transform-origin: 0 5.5em;
+    transform-origin: 0 5em; 
 }
 
 .container-div {
