@@ -1,5 +1,6 @@
 //grab elements from the DOM
 const cubes = document.querySelectorAll(".cube");
+const nameText = document.querySelector(".contact__image--text p");
 
 cubes.forEach(cube => {
             cube.addEventListener("mouseover", function() {
@@ -12,3 +13,9 @@ cubes.forEach(cube => {
             })
 })
 
+ 
+nameText.innerHTML = nameText.innerText.split('').map((character, i) => 
+    `<span style="transform:rotate(${i * 8}deg)">${character}</span>`
+).join(''); // is there a way to avoid using inner HTML here???? ***
+
+console.log(nameText.innerHTML);
