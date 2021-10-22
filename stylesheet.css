@@ -88,13 +88,14 @@ h1 > p {
     transform-origin: 0 3.9em; 
 }
 
-.github__btn {
+.buttons__github {
     background-color: var(--green);
     border: 1px solid darkgreen;
     border-radius: 5px;
     padding: .5em;
     letter-spacing: .2rem;
     font-family: var(--ff-accent);
+    cursor: pointer;
 }
 
 .container-div {
@@ -102,7 +103,7 @@ h1 > p {
     grid-template-columns: minmax(1em, 5em) minmax(2em, 7em) minmax(2em, 5em);
     grid-template-areas: 
         "header header ....."
-        "github subheader2 subheader2"
+        "buttons subheader2 subheader2"
         "subheader subheader ....."
         "project1 project2 ....." 
         "project1 project3 project4"
@@ -155,8 +156,8 @@ h1 > p {
     font-size: .7rem;
 }
 
-.github {
-    grid-area: github;
+.buttons {
+    grid-area: buttons;
 }
 
 .project1 {
@@ -392,7 +393,7 @@ h1 > p {
         grid-template-columns: minmax(1em, 5em) minmax(1em, 7em) minmax(.5em, 5em) minmax(7em, 10em) minmax(1em, 8em) minmax(2em, 4em) minmax(.5em, 1em);
         grid-template-areas: 
             "header header header header ..... ..... ....."
-            "github subheader2 subheader2 ..... subheader subheader subheader"
+            "buttons subheader2 subheader2 ..... subheader subheader subheader"
             "....... project1 project2 project3 ...... project4 ....."
             "project5 project5 ..... project6 project7 ...... ....."
             "..... ...... project8 project8 ..... ...... .....";
@@ -544,9 +545,7 @@ h1 > p {
         writing-mode: horizontal-tb;
     }
 
-    .github__btn {
-        background-color: aqua;
-    }
+    
     
 
 }
