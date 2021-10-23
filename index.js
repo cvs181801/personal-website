@@ -1,6 +1,8 @@
 //grab elements from the DOM
 const cubes = document.querySelectorAll(".cube");
+
 const nameText = document.querySelector(".contact__image--text p");
+
 
 cubes.forEach(cube => {
             cube.addEventListener("mouseover", function() {
