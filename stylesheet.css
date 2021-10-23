@@ -64,6 +64,7 @@ h1 > p {
     width: 6em;
     top: 2em;
     left: -0.5em;
+    cursor: pointer;
 }
 
 .contact__image {
@@ -209,6 +210,7 @@ h1 > p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-size: .7rem; 
+    transform: rotate(-180deg);
 }
 
 .project1 {
@@ -365,6 +367,10 @@ h1 > p {
 .project2__p > a:active,
 .project8__p > a:active {
     text-decoration: none;
+}
+
+.hidden {
+    display: none;
 }
 
 @media (min-width: 800px) {

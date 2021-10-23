@@ -1,6 +1,7 @@
 //grab elements from the DOM
 const cubes = document.querySelectorAll(".cube");
-
+const subtitle3 = document.querySelector(".subtitle3-div");
+const subtitles = document.querySelectorAll(".subtitles");
 const nameText = document.querySelector(".contact__image--text p");
 
 
@@ -21,3 +22,9 @@ nameText.innerHTML = nameText.innerText.split("").map((character, i) =>
 ).join(""); // is there a way to avoid using inner HTML here???? ***
 
 console.log(nameText.innerHTML);
+
+setInterval(() => {
+    subtitle3.style.transform = "scale(1.5, 1.5)"
+    subtitle3.style.transition = "all 5s ease-in";
+}, 1000);
+    
