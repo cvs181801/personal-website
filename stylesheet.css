@@ -213,6 +213,10 @@ h1 > p {
     transform: rotate(-180deg);
 }
 
+.subtitle3-div p {
+    transform: rotate(-180deg);
+}
+
 .project1 {
     background-color: var(--cocoa-taupe);
     grid-area: project1;
@@ -499,6 +503,10 @@ h1 > p {
         text-transform: uppercase;
         letter-spacing: .2rem;
         font-size: .7rem;
+    }
+
+    .subtitle3-div p {
+        transform: none;
     }
 
     .project1 {
