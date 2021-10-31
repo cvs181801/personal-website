@@ -18,7 +18,7 @@ cubes.forEach(cube => {
 
  
 nameText.innerHTML = nameText.innerText.split("").map((character, i) => 
-    `<span style="transform:rotate(${i * 8}deg)">${character}</span>`
+    `<span style="transform:rotate(${i * 7}deg)">${character}</span>`
 ).join(""); // is there a way to avoid using inner HTML here???? ***
 
 console.log(nameText.innerHTML);

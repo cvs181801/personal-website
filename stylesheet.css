@@ -50,18 +50,22 @@ h1 > p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     max-width: 30em;
-    margin: 0 1em 0 1em;
+    margin: 0 .7em 0 .7em;
+}
+
+.subtitles {
+    z-index: 2;
 }
 
 .contact {
     position: relative;
-    border-radius: 50%;
+    border-radius: 10%;
     background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6em;
-    width: 6em;
+    height: 5em;
+    width: 5em;
     top: 2em;
     left: -0.5em;
     cursor: pointer;
@@ -69,8 +73,8 @@ h1 > p {
 
 .contact__image {
     position: absolute;
-    width: 4em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
     background: url(/Users/casvalkyriespicer/Documents/GitHub/personal-website/pics/propic.jpg);
     background-size: cover;
@@ -80,12 +84,12 @@ h1 > p {
 
 .contact__image--text-p {
     position: absolute;
-    width: 4em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
     color:greenyellow;
     border: 1px solid greenyellow;
     font-weight: 700;
-    left: .9em;
+    left: 1em;
     top: 0em;
     border-radius: 50%;
     font-family: var(--ff-monospace2);
@@ -216,6 +220,7 @@ h1 > p {
 
 .subtitle3-div p {
     transform: rotate(-180deg);
+    z-index: 1;
 }
 
 .project1 {
