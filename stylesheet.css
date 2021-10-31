@@ -117,6 +117,10 @@ h1 > p {
     text-align: left;
 }
 
+.buttons > a {
+    text-decoration: none;
+}
+
 
 .buttons__github {
     background-color: aqua;
@@ -128,6 +132,7 @@ h1 > p {
     cursor: pointer;
     color: navy;
     margin: 0 .7em 0 0;
+    font-size: 1.5rem;
 }
 
 .buttons__linkedIn {
