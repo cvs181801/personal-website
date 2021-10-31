@@ -115,10 +115,7 @@ h1 > p {
     grid-area: buttons;
     max-width: 20vw;
     text-align: left;
-}
-
-.buttons > a {
-    text-decoration: none;
+    font-size: 1rem;
 }
 
 
@@ -132,7 +129,6 @@ h1 > p {
     cursor: pointer;
     color: navy;
     margin: 0 .7em 0 0;
-    font-size: 1.5rem;
 }
 
 .buttons__linkedIn {
@@ -321,24 +317,27 @@ h1 > p {
 .project4__p > a:link,
 .project5__p > a:link,
 .project6__p > a:link,
-.project7__p > a:link {
+.project7__p > a:link,
+.buttons__github > a:link {
     text-decoration: none;
     color: black;
 }
 
 .project2__p > a:link,
-.project8__p > a:link {
+.project8__p > a:link,
+.buttons__resume > a:link,
+.buttons__linkedIn > a:link {
     text-decoration: none;
     color: white;
 }
 
-
-.project1__p >a:visited,
+.project1__p > a:visited,
 .project3__p > a:visited,
 .project4__p > a:visited,
 .project5__p > a:visited,
 .project6__p > a:visited,
-.project7__p > a:visited {
+.project7__p > a:visited,
+.buttons__github > a:link {
     text-decoration: none;
     color: black;
 }
@@ -355,7 +354,8 @@ h1 > p {
 .project4__p > a:hover,
 .project5__p > a:hover,
 .project6__p > a:hover,
-.project7__p > a:hover { 
+.project7__p > a:hover,
+.buttons__github > a:link { 
     text-decoration: none;
 }
 
