@@ -64,7 +64,7 @@ h1 > p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5em;
+    height: 6.5em;
     width: 5em;
     top: 2em;
     left: -0.5em;
@@ -90,7 +90,7 @@ h1 > p {
     border: 1px solid greenyellow;
     font-weight: 700;
     left: 1em;
-    top: 0em;
+    top: .75em;
     border-radius: 50%;
     font-family: var(--ff-monospace2);
     animation: rotateText 10s linear infinite;
@@ -111,7 +111,7 @@ h1 > p {
     position: absolute;
     left: 50%;
     top: -1em;
-    transform-origin: 0 3em; 
+    transform-origin: 0 4em; 
    
 }
 
