@@ -317,6 +317,11 @@ h1 > p {
 
 /*~~ Anchor/link styling ~~*/
 
+/* body > a {
+    padding: 2em;
+    border: 1px solid blue;
+} */
+
 .project1__p > a:link,
 .project3__p > a:link,
 .project4__p > a:link,
@@ -360,13 +365,14 @@ h1 > p {
 .project5__p > a:hover,
 .project6__p > a:hover,
 .project7__p > a:hover,
-.buttons__github > a:link { 
-    text-decoration: none;
+.buttons__github > a:hover,
+.buttons__linkedIn > a:hover { 
+    text-decoration: wavy underline slategrey;
 }
 
 .project2__p > a:hover,
 .project8__p > a:hover {
-    text-decoration: none;
+    text-decoration: wavy underline slategrey;
 }
 
 .project1__p > a:active,
