@@ -3,6 +3,7 @@
     --black: rgb(14, 13, 13);
     --cocoa-taupe: rgb(170, 157, 163);
     --orange: rgb(252, 119, 11);
+    --burnt-transparent-orange: rgba(252, 119, 11, 0.534);
     --green: rgb(21, 241, 105);
     --teal: rgb(3, 71, 80);
     --light-teal: rgb(4, 167, 167);
@@ -76,7 +77,7 @@ h1 > p {
     width: 3em;
     height: 3em;
     border-radius: 50%;
-    background: url(personal-website/pics/propic.jpg);
+    background: url(/Users/casvalkyriespicer/Documents/GitHub/personal-website/pics/propic.jpg);
     background-size: cover;
     background-color: rgba(248, 248, 242, .3);
     background-blend-mode: lighten;
@@ -391,6 +392,29 @@ h1 > p {
 
 .hidden {
     display: none;
+}
+
+.modal {
+    position: absolute;
+    width: 100%;
+    background-color: var(--burnt-transparent-orange);
+    z-index: 4;
+}
+
+.modal__background {
+    
+    background-color: orangered;
+    max-width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    
+}
+
+img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    max-height: 17em;
 }
 
 @media (min-width: 800px) {
