@@ -76,7 +76,7 @@ h1 > p {
     width: 3em;
     height: 3em;
     border-radius: 50%;
-    background: url(/Users/casvalkyriespicer/Documents/GitHub/personal-website/pics/propic.jpg);
+    background: url(~/Users/casvalkyriespicer/Documents/GitHub/personal-website/pics/propic.jpg);
     background-size: cover;
     background-color: rgba(248, 248, 242, .3);
     background-blend-mode: lighten;
