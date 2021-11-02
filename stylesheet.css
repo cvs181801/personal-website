@@ -399,15 +399,27 @@ h1 > p {
     width: 100%;
     background-color: var(--burnt-transparent-orange);
     z-index: 4;
+    padding-bottom: 20em;
 }
 
 .modal__background {
-    
+    border-radius: 10px;
     background-color: orangered;
     max-width: 50%;
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
-    
+    border: 2px solid white;
+    padding: .5em;
+    font-size: 1rem;
+}
+
+.modal__close {
+    transform: rotate(45deg);
+    cursor: pointer;
+    float: left;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
 }
 
 img {
