@@ -5,7 +5,7 @@ const subtitles = document.querySelectorAll(".subtitles");
 const nameText = document.querySelector(".contact__image--text p");
 const modal = document.querySelector(".modal");
 const closeModal = document.querySelector(".modal__close");
-const contactMe = document.querySelector(".contact");
+const contactMeElements = document.querySelectorAll(".aboutMe");
 
 cubes.forEach(cube => {
             cube.addEventListener("mouseover", function() {
@@ -28,10 +28,11 @@ setInterval(() => {
     subtitle3.style.transition = "all 5s ease-in";
 }, 1000);
     
-contactMe.addEventListener("click", function(event) {
-    event.preventDefault();
-    modal.classList.remove("hidden");
-
+contactMeElements.forEach(element => {
+    element.addEventListener("click", function(event) {
+        event.preventDefault();
+        modal.classList.remove("hidden");
+    })
 })
 
 closeModal.addEventListener("click", function(event) {
