@@ -163,18 +163,18 @@ h1 > p {
 
 
 .container-div {
-    display: grid;
+    /* display: grid;
     grid-template-columns: minmax(1em, 6em) minmax(4em, 5em) minmax(2em, 5em);
     grid-template-areas: 
         /* "header header ....." */
-        "buttons subheader2 subheader2"
+        /* "buttons subheader2 subheader2"
         "subheader subheader subheader3"
         "project1 project2 ....." 
         "project1 project3 project4"
         "project5 project5 ....."
         "project6 project7 ......"
         "..... project8 project8";
-    grid-gap: 1.5em; 
+    grid-gap: 1.5em;   */
     margin: 1em;
     justify-content: center;
     text-align: center; 
@@ -234,6 +234,7 @@ h1 > p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-size: .7rem;
+    margin: 4em auto 0 auto;
 }
 
 .project2 {
@@ -245,6 +246,7 @@ h1 > p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     color: white;
+    margin: 4em auto 0 auto;
 }
 
 .project3 {
@@ -255,6 +257,7 @@ h1 > p {
     box-shadow: -10px 10px 5px grey;
     text-transform: uppercase;
     letter-spacing: .2rem;
+    margin: 4em auto 0 auto;
 }
 
 .project4 {
@@ -265,6 +268,7 @@ h1 > p {
     box-shadow: -10px 10px 5px grey;
     text-transform: uppercase;
     letter-spacing: .2rem;
+    margin: 4em auto 0 auto;
 }
 
 .project5 {
@@ -275,6 +279,7 @@ h1 > p {
     box-shadow: -10px 10px 5px grey;
     text-transform: uppercase;
     letter-spacing: .2rem;
+    margin: 4em auto 0 auto;
 }
 
 .project6 {
@@ -286,6 +291,7 @@ h1 > p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-size: .7rem;
+    margin: 4em auto 0 auto;
 }
 
 .project7 {
@@ -296,6 +302,7 @@ h1 > p {
     box-shadow: -10px 10px 5px grey;
     text-transform: uppercase;
     letter-spacing: .2rem;
+    margin: 4em auto 0 auto;
 }
 
 .project8 {
@@ -308,6 +315,7 @@ h1 > p {
     letter-spacing: .2rem;
     color: white;
     font-size: .7rem;
+    margin: 4em auto 0 auto;
 }
 
 .project4__p,
@@ -516,7 +524,7 @@ img {
     
     
     .container-div {
-        display: grid;
+        /* display: grid;
         grid-template-columns: minmax(1em, 6em) minmax(1em, 7em) minmax(.5em, 5em) minmax(7em, 10em) minmax(1em, 8em) minmax(2em, 4em) minmax(.5em, 1em);
         grid-template-areas: 
             "header header header header ..... ..... ....."
@@ -524,7 +532,7 @@ img {
             "....... project1 project2 project3 ...... project4 ....."
             "project5 project5 ..... project6 project7 ...... ....."
             "..... ...... project8 project8 ..... ...... .....";
-        grid-gap: 1.5em; 
+        grid-gap: 1.5em;  */
         margin: 1em auto 1em auto;
         justify-content: center;
         text-align: center; 
