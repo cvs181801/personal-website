@@ -255,6 +255,7 @@ h1 > p {
     border-radius: 7px;
     box-shadow: -10px 10px 5px grey;
     margin: 4em auto 0 auto;
+    max-width: 95%;
 }
 
 .project1__p {
@@ -263,9 +264,48 @@ h1 > p {
     font-size: 1rem;
 }
 
-.project1__p--small {
-    font-size: .7rem;
+.project1__p--small,
+.project2__p--small,
+.project3__p--small,
+.project4__p--small,
+.project5__p--small,
+.project6__p--small,
+.project7__p--small,
+.project8__p--small,
+.project9__p--small {
+    font-size: 1rem;
     font-family: var(--ff-main);
+}
+
+.project1__p--small > a:link,
+.project1__p--small > a:hover,
+.project1__p--small > a:visited,
+.project2__p--small > a:link,
+.project2__p--small > a:hover,
+.project2__p--small > a:visited,
+.project3__p--small > a:link,
+.project3__p--small > a:hover,
+.project3__p--small > a:visited,
+.project4__p--small > a:link,
+.project4__p--small > a:hover,
+.project4__p--small > a:visited,
+.project5__p--small > a:link,
+.project5__p--small > a:hover,
+.project5__p--small > a:visited,
+.project6__p--small > a:link,
+.project6__p--small > a:hover,
+.project6__p--small > a:visited,
+.project7__p--small > a:link,
+.project7__p--small > a:hover,
+.project7__p--small > a:visited,
+.project8__p--small > a:link,
+.project8__p--small > a:hover,
+.project8__p--small > a:visited,
+.project9__p--small > a:link,
+.project9__p--small > a:hover,
+.project9__p--small > a:visited {
+    text-decoration: none;
+    color: inherit;
 }
 
 .project2 {
@@ -278,6 +318,7 @@ h1 > p {
     letter-spacing: .2rem;
     color: white;
     margin: 4em auto 0 auto;
+    max-width: 95%;
 }
 
 .project3 {
@@ -289,6 +330,7 @@ h1 > p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     margin: 4em auto 0 auto;
+    max-width: 95%;
 }
 
 .project4 {
@@ -300,6 +342,7 @@ h1 > p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     margin: 4em auto 0 auto;
+    max-width: 95%;
 }
 
 .project5 {
@@ -311,6 +354,7 @@ h1 > p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     margin: 4em auto 0 auto;
+    max-width: 95%;
 }
 
 .project6 {
@@ -323,6 +367,7 @@ h1 > p {
     letter-spacing: .2rem;
     font-size: .7rem;
     margin: 4em auto 0 auto;
+    max-width: 95%;
 }
 
 .project7 {
@@ -334,6 +379,7 @@ h1 > p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     margin: 4em auto 0 auto;
+    max-width: 95%;
 }
 
 .project8 {
@@ -347,6 +393,7 @@ h1 > p {
     color: white;
     font-size: .7rem;
     margin: 4em auto 0 auto;
+    max-width: 95%;
 }
 
 /* .project4__p,
@@ -610,7 +657,6 @@ img {
         padding: 2.5em .5em 2.5em .5em;
         border-radius: 7px;
         box-shadow: -10px 10px 5px grey;
-        cursor: pointer;
         justify-content: center;
         font-size: 1rem;
         max-width: 95%;  
@@ -623,7 +669,7 @@ img {
     }
     
     .project1__p--small {
-        font-size: .7rem;
+        font-size: 1rem;
         font-family: var(--ff-main);
     }
     
@@ -633,7 +679,6 @@ img {
         border-radius: 7px;
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
-        cursor: pointer;
         max-width: 95%;
     }
     
@@ -643,7 +688,6 @@ img {
         border-radius: 7px;
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
-        cursor: pointer;
         max-width: 95%;
     }
     
@@ -653,7 +697,6 @@ img {
         border-radius: 7px;
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
-        cursor: pointer;
         max-width: 95%;
     }
     
@@ -663,7 +706,6 @@ img {
         border-radius: 7px;
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
-        cursor: pointer;
         max-width: 95%;
     }
     
@@ -673,7 +715,6 @@ img {
         border-radius: 7px;
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
-        cursor: pointer;
         font-size: 1rem;
         max-width: 95%;
     }
@@ -684,7 +725,6 @@ img {
         border-radius: 7px;
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
-        cursor: pointer;
         max-width: 95%;
     }
     
@@ -694,7 +734,6 @@ img {
         border-radius: 7px;
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
-        cursor: pointer;
         font-size: 1rem;
         max-width: 95%;
     }
