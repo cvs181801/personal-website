@@ -318,12 +318,12 @@ h1 > p {
     margin: 4em auto 0 auto;
 }
 
-.project4__p,
+/* .project4__p,
 .project1__p,
 .project6__p,
 .subtitle3-div {
     writing-mode: vertical-rl;
-} 
+}  */
 
 /*~~ Anchor/link styling ~~*/
 
@@ -582,7 +582,7 @@ img {
         letter-spacing: .2rem;
         justify-content: center;
         font-size: 1rem;
-        
+        max-width: 95%;  
     }
     
     .project2 {
@@ -594,6 +594,7 @@ img {
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: .2rem;
+        max-width: 95%;
     }
     
     .project3 {
@@ -605,6 +606,7 @@ img {
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: .2rem;
+        max-width: 95%;
     }
     
     .project4 {
@@ -616,6 +618,7 @@ img {
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: .2rem;
+        max-width: 95%;
     }
     
     .project5 {
@@ -627,6 +630,7 @@ img {
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: .2rem;
+        max-width: 95%;
     }
     
     .project6 {
@@ -639,6 +643,7 @@ img {
         text-transform: uppercase;
         letter-spacing: .2rem;
         font-size: 1rem;
+        max-width: 95%;
     }
     
     .project7 {
@@ -650,6 +655,7 @@ img {
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: .2rem;
+        max-width: 95%;
     }
     
     .project8 {
@@ -662,9 +668,10 @@ img {
         text-transform: uppercase;
         letter-spacing: .2rem;
         font-size: 1rem;
+        max-width: 95%;
     }
     
-    .project4__p,
+    /* .project4__p,
     .project1__p {
         writing-mode: vertical-rl;
     } 
@@ -672,6 +679,6 @@ img {
     .project6__p,
     .subtitle3-div  {
         writing-mode: horizontal-tb;
-    }
+    } */
 
 }
