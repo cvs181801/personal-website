@@ -258,56 +258,6 @@ h1 > p {
     max-width: 95%;
 }
 
-.project1__p {
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    font-size: 1rem;
-}
-
-.project1__p--small,
-.project2__p--small,
-.project3__p--small,
-.project4__p--small,
-.project5__p--small,
-.project6__p--small,
-.project7__p--small,
-.project8__p--small,
-.project9__p--small {
-    font-size: 1rem;
-    font-family: var(--ff-main);
-}
-
-.project1__p--small > a:link,
-.project1__p--small > a:hover,
-.project1__p--small > a:visited,
-.project2__p--small > a:link,
-.project2__p--small > a:hover,
-.project2__p--small > a:visited,
-.project3__p--small > a:link,
-.project3__p--small > a:hover,
-.project3__p--small > a:visited,
-.project4__p--small > a:link,
-.project4__p--small > a:hover,
-.project4__p--small > a:visited,
-.project5__p--small > a:link,
-.project5__p--small > a:hover,
-.project5__p--small > a:visited,
-.project6__p--small > a:link,
-.project6__p--small > a:hover,
-.project6__p--small > a:visited,
-.project7__p--small > a:link,
-.project7__p--small > a:hover,
-.project7__p--small > a:visited,
-.project8__p--small > a:link,
-.project8__p--small > a:hover,
-.project8__p--small > a:visited,
-.project9__p--small > a:link,
-.project9__p--small > a:hover,
-.project9__p--small > a:visited {
-    text-decoration: none;
-    color: inherit;
-}
-
 .project2 {
     background-color: rgb(36, 36, 218);
     grid-area: project2;
@@ -409,6 +359,65 @@ h1 > p {
     padding: 2em;
     border: 1px solid blue;
 } */
+
+.project1__p,
+.project2__p,
+.project3__p,
+.project4__p,
+.project5__p,
+.project6__p,
+.project7__p,
+.project8__p,
+.project9__p {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+}
+
+.project1__p--small,
+.project2__p--small,
+.project3__p--small,
+.project4__p--small,
+.project5__p--small,
+.project6__p--small,
+.project7__p--small,
+.project8__p--small,
+.project9__p--small {
+    font-size: 1rem;
+    font-family: var(--ff-main);
+}
+
+.project1__p--small > a:link,
+.project1__p--small > a:hover,
+.project1__p--small > a:visited,
+.project2__p--small > a:link,
+.project2__p--small > a:hover,
+.project2__p--small > a:visited,
+.project3__p--small > a:link,
+.project3__p--small > a:hover,
+.project3__p--small > a:visited,
+.project4__p--small > a:link,
+.project4__p--small > a:hover,
+.project4__p--small > a:visited,
+.project5__p--small > a:link,
+.project5__p--small > a:hover,
+.project5__p--small > a:visited,
+.project6__p--small > a:link,
+.project6__p--small > a:hover,
+.project6__p--small > a:visited,
+.project7__p--small > a:link,
+.project7__p--small > a:hover,
+.project7__p--small > a:visited,
+.project8__p--small > a:link,
+.project8__p--small > a:hover,
+.project8__p--small > a:visited,
+.project9__p--small > a:link,
+.project9__p--small > a:hover,
+.project9__p--small > a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 .project1__p > a:link,
 .project3__p > a:link,
