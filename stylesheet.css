@@ -256,6 +256,8 @@ h1 > p {
     box-shadow: -10px 10px 5px grey;
     margin: 4em auto 0 auto;
     max-width: 95%;
+    
+
 }
 
 .project2 {
@@ -264,7 +266,6 @@ h1 > p {
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    text-transform: uppercase;
     letter-spacing: .2rem;
     color: white;
     margin: 4em auto 0 auto;
@@ -277,7 +278,6 @@ h1 > p {
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    text-transform: uppercase;
     letter-spacing: .2rem;
     margin: 4em auto 0 auto;
     max-width: 95%;
@@ -289,7 +289,6 @@ h1 > p {
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    text-transform: uppercase;
     letter-spacing: .2rem;
     margin: 4em auto 0 auto;
     max-width: 95%;
@@ -301,7 +300,6 @@ h1 > p {
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    text-transform: uppercase;
     letter-spacing: .2rem;
     margin: 4em auto 0 auto;
     max-width: 95%;
@@ -313,7 +311,6 @@ h1 > p {
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    text-transform: uppercase;
     letter-spacing: .2rem;
     font-size: .7rem;
     margin: 4em auto 0 auto;
@@ -326,7 +323,6 @@ h1 > p {
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    text-transform: uppercase;
     letter-spacing: .2rem;
     margin: 4em auto 0 auto;
     max-width: 95%;
@@ -338,7 +334,6 @@ h1 > p {
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
-    text-transform: uppercase;
     letter-spacing: .2rem;
     color: white;
     font-size: .7rem;
@@ -384,7 +379,7 @@ h1 > p {
 .project8__p--small,
 .project9__p--small {
     font-size: 1rem;
-    font-family: var(--ff-main);
+    letter-spacing: .1rem;
 }
 
 .project1__p--small > a:link,
@@ -526,20 +521,6 @@ img {
 }
 
 @media (min-width: 800px) {
-
-    body {
-        margin: 0 auto;
-        padding: 0;
-        font-family: var(--ff-accent);
-        
-        text-align: center;
-        color: var(--black);
-        min-height: 100vh;
-    }
-    
-    h1 {
-        font-family: var(--ff-accent);
-    }
     
     h1 > span {
         font-size: 1rem;
@@ -677,10 +658,17 @@ img {
         font-size: 1rem;
     }
     
-    .project1__p--small {
-        font-size: 1rem;
-        font-family: var(--ff-main);
-    }
+    .project1__p--small,
+    .project2__p--small,
+    .project3__p--small,
+    .project4__p--small,
+    .project5__p--small,
+    .project6__p--small,
+    .project7__p--small,
+    .project8__p--small,
+    .project9__p--small {
+    font-size: 1rem;
+}
     
     .project2 {
         background-color: rgb(36, 36, 218);
