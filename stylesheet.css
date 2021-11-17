@@ -122,6 +122,7 @@ h1 > p {
     max-width: 20vw;
     text-align: left;
     font-size: 1rem;
+    margin: 1em;
 }
 
 
@@ -136,6 +137,26 @@ h1 > p {
     color: navy;
     margin: 0 .7em 0 0;
 }
+
+.buttons__github > a:visited,
+.buttons__linkedIn > a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.buttons__github > a:hover,
+.buttons__linkedIn > a:hover {
+    color: greenyellow;
+    text-decoration: none;
+
+}
+
+.buttons__github > a:link,
+.buttons__linkedIn > a:link {
+    text-decoration: none;
+    color: white;
+}
+
 
 .buttons__linkedIn {
     background-color: var(--teal);
@@ -175,14 +196,13 @@ h1 > p {
         "project6 project7 ......"
         "..... project8 project8";
     grid-gap: 1.5em;   */
-    margin: 1em;
+    margin: 1em auto 0 auto;
     justify-content: center;
     text-align: center; 
     align-items: center;
     font-size: 1rem;
     max-height: 80vh;
     max-width: 100vw;
-
 }
 
 .subtitle-div {
@@ -195,6 +215,9 @@ h1 > p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-size: .7rem;
+    margin: 0 auto 4em auto;
+    max-width: 93%;
+    text-align: center;
 }
 
 .subtitle2-div {
@@ -221,7 +244,7 @@ h1 > p {
 }
 
 .subtitle3-div p {
-    transform: rotate(-180deg);
+    /*transform: rotate(-180deg);*/
     z-index: 1;
 }
 
@@ -231,10 +254,18 @@ h1 > p {
     padding: 2.5em .5em 2.5em .5em;
     border-radius: 7px;
     box-shadow: -10px 10px 5px grey;
+    margin: 4em auto 0 auto;
+}
+
+.project1__p {
     text-transform: uppercase;
     letter-spacing: .2rem;
+    font-size: 1rem;
+}
+
+.project1__p--small {
     font-size: .7rem;
-    margin: 4em auto 0 auto;
+    font-family: var(--ff-main);
 }
 
 .project2 {
@@ -374,15 +405,15 @@ h1 > p {
 .project4__p > a:hover,
 .project5__p > a:hover,
 .project6__p > a:hover,
-.project7__p > a:hover,
-.buttons__github > a:hover,
-.buttons__linkedIn > a:hover { 
-    text-decoration: wavy underline slategrey;
+.project7__p > a:hover { 
+    text-decoration: none;
+    color: ghostwhite;
 }
 
 .project2__p > a:hover,
 .project8__p > a:hover {
-    text-decoration: wavy underline slategrey;
+    text-decoration: none;
+    color: black;
 }
 
 .project1__p > a:active,
@@ -533,7 +564,7 @@ img {
             "project5 project5 ..... project6 project7 ...... ....."
             "..... ...... project8 project8 ..... ...... .....";
         grid-gap: 1.5em;  */
-        margin: 1em auto 1em auto;
+        margin: 0 auto 1em auto;
         justify-content: center;
         text-align: center; 
         align-items: center;
@@ -553,6 +584,8 @@ img {
         text-transform: uppercase;
         letter-spacing: .2rem;
         font-size: .7rem;
+        max-width: 33%;
+        margin: 0em auto 2em auto;
     }
     
     .subtitle2-div {
@@ -578,11 +611,20 @@ img {
         border-radius: 7px;
         box-shadow: -10px 10px 5px grey;
         cursor: pointer;
-        text-transform: uppercase;
-        letter-spacing: .2rem;
         justify-content: center;
         font-size: 1rem;
         max-width: 95%;  
+    }
+
+    .project1__p {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-size: 1rem;
+    }
+    
+    .project1__p--small {
+        font-size: .7rem;
+        font-family: var(--ff-main);
     }
     
     .project2 {
@@ -592,8 +634,6 @@ img {
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
         cursor: pointer;
-        text-transform: uppercase;
-        letter-spacing: .2rem;
         max-width: 95%;
     }
     
@@ -604,8 +644,6 @@ img {
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
         cursor: pointer;
-        text-transform: uppercase;
-        letter-spacing: .2rem;
         max-width: 95%;
     }
     
@@ -616,8 +654,6 @@ img {
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
         cursor: pointer;
-        text-transform: uppercase;
-        letter-spacing: .2rem;
         max-width: 95%;
     }
     
@@ -628,8 +664,6 @@ img {
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
         cursor: pointer;
-        text-transform: uppercase;
-        letter-spacing: .2rem;
         max-width: 95%;
     }
     
@@ -640,8 +674,6 @@ img {
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
         cursor: pointer;
-        text-transform: uppercase;
-        letter-spacing: .2rem;
         font-size: 1rem;
         max-width: 95%;
     }
@@ -653,8 +685,6 @@ img {
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
         cursor: pointer;
-        text-transform: uppercase;
-        letter-spacing: .2rem;
         max-width: 95%;
     }
     
@@ -665,8 +695,6 @@ img {
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
         cursor: pointer;
-        text-transform: uppercase;
-        letter-spacing: .2rem;
         font-size: 1rem;
         max-width: 95%;
     }
