@@ -185,18 +185,6 @@ h1 > p {
 
 
 .container-div {
-    /* display: grid;
-    grid-template-columns: minmax(1em, 6em) minmax(4em, 5em) minmax(2em, 5em);
-    grid-template-areas: 
-        /* "header header ....." */
-        /* "buttons subheader2 subheader2"
-        "subheader subheader subheader3"
-        "project1 project2 ....." 
-        "project1 project3 project4"
-        "project5 project5 ....."
-        "project6 project7 ......"
-        "..... project8 project8";
-    grid-gap: 1.5em;   */
     margin: 1em auto 0 auto;
     justify-content: center;
     text-align: center; 
@@ -257,8 +245,6 @@ h1 > p {
     box-shadow: -10px 10px 5px grey;
     margin: 4em auto 0 auto;
     max-width: 95%;
-    
-
 }
 
 .project2 {
@@ -347,26 +333,34 @@ h1 > p {
     letter-spacing: .1rem;
 }
 
-.git > a {
+.git > a,
+.project__p--view > a {
     text-decoration: none;
     color: aqua;
 }
 
 .git > a:link,
 .git > a:hover,
-.git > a:visited {
+.git > a:visited,
+.project__p--view > a:link,
+.project__p--view > a:hover,
+.project__p--view > a:visited {
     text-decoration: none;
     color: aqua;
 }
 
-.git__aqua > a {
+.git__aqua > a,
+.project__p--viewAqua {
     text-decoration: none;
     color: var(--blue);
 }
 
 .git__aqua > a:link,
 .git__aqua > a:hover,
-.git__aqua > a:visited {
+.git__aqua > a:visited,
+.project__p--viewAqua > a:visited, 
+.project__p--viewAqua > a:hover,
+.project__p--viewAqua > a:link {
     text-decoration: none;
     color: var(--blue);
 }
@@ -381,6 +375,11 @@ h1 > p {
 .project8__p,
 .project9__p {
     text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+}
+
+.project__p--view {
     letter-spacing: .2rem;
     font-size: 1rem;
 }
