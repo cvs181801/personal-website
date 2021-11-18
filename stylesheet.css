@@ -8,6 +8,7 @@
     --green: rgb(21, 241, 105);
     --teal: rgb(3, 71, 80);
     --light-teal: rgb(4, 167, 167);
+    --watermelon: rgb(253, 4, 87);
     --ff-accent: 'Comfortaa', sans-serif;
     --ff-main: 'Nunito Sans', sans-serif;
     --ff-accent2: 'Righteous', sans-serif;
@@ -305,7 +306,7 @@ h1 > p {
 }
 
 .project7 {
-    background-color: rgb(253, 4, 87);
+    background-color: var(--watermelon);
     grid-area: project7;
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
@@ -468,7 +469,7 @@ h1 > p {
     color: white;
 }
 
-.project1__p >a:hover,
+.project1__p > a:hover,
 .project3__p > a:hover,
 .project4__p > a:hover,
 .project5__p > a:hover,
@@ -673,11 +674,11 @@ img {
         max-width: 95%;  
     }
 
-    .project1__p {
+    /* .project1__p {
         text-transform: uppercase;
         letter-spacing: .2rem;
         font-size: 1rem;
-    }
+    } */
     
     .project1__p--small,
     .project2__p--small,
@@ -738,7 +739,6 @@ img {
     }
     
     .project7 {
-        background-color: hotpink;
         grid-area: project7;
         border-radius: 7px;
         padding: 2.5em .5em 2.5em .5em;
@@ -756,15 +756,6 @@ img {
         max-width: 95%;
         color: white;
     }
-    
-    /* .project4__p,
-    .project1__p {
-        writing-mode: vertical-rl;
-    } 
 
-    .project6__p,
-    .subtitle3-div  {
-        writing-mode: horizontal-tb;
-    } */
 
 }
