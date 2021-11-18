@@ -3,6 +3,7 @@
     --black: rgb(14, 13, 13);
     --cocoa-taupe: rgb(170, 157, 163);
     --orange: rgb(252, 119, 11);
+    --blue: rgb(36, 36, 218);
     --burnt-transparent-orange: rgba(252, 119, 11, 0.534);
     --green: rgb(21, 241, 105);
     --teal: rgb(3, 71, 80);
@@ -341,19 +342,34 @@ h1 > p {
     max-width: 95%;
 }
 
-/* .project4__p,
-.project1__p,
-.project6__p,
-.subtitle3-div {
-    writing-mode: vertical-rl;
-}  */
+.git,
+.git__aqua {
+    letter-spacing: .1rem;
+}
 
-/*~~ Anchor/link styling ~~*/
+.git > a {
+    text-decoration: none;
+    color: aqua;
+}
 
-/* body > a {
-    padding: 2em;
-    border: 1px solid blue;
-} */
+.git > a:link,
+.git > a:hover,
+.git > a:visited {
+    text-decoration: none;
+    color: aqua;
+}
+
+.git__aqua > a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.git__aqua > a:link,
+.git__aqua > a:hover,
+.git__aqua > a:visited {
+    text-decoration: none;
+    color: var(--blue);
+}
 
 .project1__p,
 .project2__p,
@@ -439,6 +455,8 @@ h1 > p {
 .project5__p > a:visited,
 .project6__p > a:visited,
 .project7__p > a:visited,
+.project8__p > a:visited,
+.project9__p > a:visited
 .buttons__github > a:link {
     text-decoration: none;
     color: black;
@@ -456,7 +474,9 @@ h1 > p {
 .project4__p > a:hover,
 .project5__p > a:hover,
 .project6__p > a:hover,
-.project7__p > a:hover { 
+.project7__p > a:hover,
+.project8__p > a:hover,
+.project9__p > a:hover  { 
     text-decoration: none;
     color: ghostwhite;
 }
@@ -472,7 +492,9 @@ h1 > p {
 .project4__p > a:active,
 .project5__p > a:active,
 .project6__p > a:active,
-.project7__p > a:active {
+.project7__p > a:active,
+.project8__p > a:active,
+.project9__p > a:active  {
     text-decoration: none;
 }
 
@@ -671,7 +693,7 @@ img {
 }
     
     .project2 {
-        background-color: rgb(36, 36, 218);
+        background-color: var(--blue);
         grid-area: project2;
         border-radius: 7px;
         padding: 2.5em .5em 2.5em .5em;
@@ -726,13 +748,14 @@ img {
     }
     
     .project8 {
-        background-color: rgb(4, 167, 167);
+        background-color: rgb(3, 71, 80);
         grid-area: project8;
         border-radius: 7px;
         padding: 2.5em .5em 2.5em .5em;
         box-shadow: -10px 10px 5px grey;
         font-size: 1rem;
         max-width: 95%;
+        color: white;
     }
     
     /* .project4__p,
