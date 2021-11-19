@@ -518,7 +518,7 @@ h1 > p {
 .modal__background {
     border-radius: 10px;
     background-color: orangered;
-    max-width: 50%;
+    max-width: 95%;
     height: 100%;
     margin: 0 auto;
     border: 2px solid white;
@@ -555,6 +555,10 @@ img {
         box-shadow: -10px 10px 5px grey;
         max-width: 25em;
         margin-left: 20em;
+    }
+
+    .modal__background {
+        max-width: 50%;
     }
 
     .contact {
