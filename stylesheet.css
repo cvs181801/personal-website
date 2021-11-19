@@ -300,7 +300,6 @@ h1 > p {
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
     letter-spacing: .2rem;
-    font-size: .7rem;
     margin: 4em auto 0 auto;
     max-width: 95%;
 }
@@ -323,8 +322,6 @@ h1 > p {
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
     letter-spacing: .2rem;
-    color: white;
-    font-size: .7rem;
     margin: 4em auto 0 auto;
     max-width: 95%;
 }
@@ -332,6 +329,8 @@ h1 > p {
 .git,
 .git__aqua {
     letter-spacing: .1rem;
+    font-size: .7rem;
+    
 }
 
 .git > a,
@@ -354,6 +353,7 @@ h1 > p {
 .project__p--viewAqua {
     text-decoration: none;
     color: var(--blue);
+    
 }
 
 .git__aqua > a:link,
