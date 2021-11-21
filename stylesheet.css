@@ -134,7 +134,7 @@ h1 > p {
 
 
 .buttons__github {
-    background-color: aqua;
+    background-color: var(--blue);
     border-radius: 5px;
     border-style: none;
     padding: .5em;
@@ -155,7 +155,6 @@ h1 > p {
 .buttons__linkedIn > a:hover {
     color: greenyellow;
     text-decoration: none;
-
 }
 
 .buttons__github > a:link,
