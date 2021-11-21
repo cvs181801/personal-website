@@ -4,6 +4,7 @@
     --cocoa-taupe: rgb(170, 157, 163);
     --orange: rgb(252, 119, 11);
     --blue: rgb(36, 36, 218);
+    --sky: rgb(85, 155, 247);
     --burnt-transparent-orange: rgba(252, 119, 11, 0.534);
     --green: rgb(21, 241, 105);
     --teal: rgb(3, 71, 80);
@@ -23,9 +24,12 @@
 body {
     margin: 0 auto;
     padding: 0;
+    
+    background-image: url("./pics/clouds13.jpeg");
+    background-color: var(--sky);
+    background-blend-mode: lighten;
     font-family: var(--ff-accent);
     text-align: center;
-    background-color: white;
     color: var(--black);
     min-height: 100vh;
 }

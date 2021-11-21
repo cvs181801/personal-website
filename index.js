@@ -39,3 +39,11 @@ closeModal.addEventListener("click", function(event) {
     event.preventDefault();
     modal.classList.add("hidden");
 })
+
+
+
+
+
+
+
+
