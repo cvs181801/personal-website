@@ -24,14 +24,15 @@
 body {
     margin: 0 auto;
     padding: 0;
-    
-    background-image: url("./pics/clouds13.jpeg");
     background-color: var(--sky);
+    background: linear-gradient(to bottom, rgba(245, 243, 243, 0.452), rgba(231, 231, 233, 0.7)),
+     url('/Users/casvalkyriespicer/Documents/GitHub/personal-website/pics/clouds13.jpeg');
     background-blend-mode: lighten;
+    background-size: cover;
     font-family: var(--ff-accent);
     text-align: center;
     color: var(--black);
-    min-height: 100vh;
+    height: 100%;
 }
 
 h1 {
@@ -43,7 +44,7 @@ h1 > p {
 }
 
 .container__headerContain {
-    background-color: rgba(255, 0, 0, 0.205);
+    background-color: rgba(253, 4, 87, 0.2);/*rgba(255, 0, 0, 0.205);*/
     width: 100vw;
     display: flex;
 }
@@ -622,15 +623,6 @@ img {
     
     
     .container-div {
-        /* display: grid;
-        grid-template-columns: minmax(1em, 6em) minmax(1em, 7em) minmax(.5em, 5em) minmax(7em, 10em) minmax(1em, 8em) minmax(2em, 4em) minmax(.5em, 1em);
-        grid-template-areas: 
-            "header header header header ..... ..... ....."
-            "buttons subheader2 subheader2 subheader3 subheader subheader subheader"
-            "....... project1 project2 project3 ...... project4 ....."
-            "project5 project5 ..... project6 project7 ...... ....."
-            "..... ...... project8 project8 ..... ...... .....";
-        grid-gap: 1.5em;  */
         margin: 0 auto 1em auto;
         justify-content: center;
         text-align: center; 
@@ -638,7 +630,6 @@ img {
         font-size: 1rem;
         max-height: 100vh;
         max-width: 100vw;
-    
     }
     
     .subtitle-div {
