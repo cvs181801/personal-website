@@ -2,6 +2,7 @@
     --white: rgb(250, 234, 234);
     --black: rgb(14, 13, 13);
     --cocoa-taupe: rgb(170, 157, 163);
+    --dark-cocoa-taupe: rgb(133, 125, 128);
     --orange: rgb(252, 119, 11);
     --pastel-orange: rgb(250, 190, 141);
     --blue: rgb(36, 36, 218);
@@ -370,6 +371,11 @@ h1 > p {
     max-width: 95%;
 }
 
+.project2.dark {
+    background-color: var(--dark-cocoa-taupe);
+    box-shadow: -10px 10px 5px white;
+}
+
 .project3 {
     background-color: yellow;
     grid-area: project3;
@@ -379,6 +385,11 @@ h1 > p {
     letter-spacing: .2rem;
     margin: 4em auto 0 auto;
     max-width: 95%;
+}
+
+.project3.dark {
+    background-color: var(--cocoa-taupe);
+    box-shadow: -10px 10px 5px white;
 }
 
 .project4 {
@@ -392,6 +403,11 @@ h1 > p {
     max-width: 95%;
 }
 
+.project4.dark {
+    background-color: var(--cocoa-taupe);
+    box-shadow: -10px 10px 5px white;
+}
+
 .project5 {
     background-color: rgb(21, 241, 105);
     grid-area: project5;
@@ -401,6 +417,11 @@ h1 > p {
     letter-spacing: .2rem;
     margin: 4em auto 0 auto;
     max-width: 95%;
+}
+
+.project5.dark {
+    background-color: var(--cocoa-taupe);
+    box-shadow: -10px 10px 5px white;
 }
 
 .project6 {
@@ -414,6 +435,11 @@ h1 > p {
     max-width: 95%;
 }
 
+.project6.dark {
+    background-color: var(--cocoa-taupe);
+    box-shadow: -10px 10px 5px white;
+}
+
 .project7 {
     background-color: var(--watermelon);
     grid-area: project7;
@@ -425,6 +451,11 @@ h1 > p {
     max-width: 95%;
 }
 
+.project7.dark {
+    background-color: var(--cocoa-taupe);
+    box-shadow: -10px 10px 5px white;
+}
+
 .project8 {
     background-color: rgb(3, 71, 80);
     grid-area: project8;
@@ -434,6 +465,11 @@ h1 > p {
     letter-spacing: .2rem;
     margin: 4em auto 0 auto;
     max-width: 95%;
+}
+
+.project8.dark {
+    background-color: var(--dark-cocoa-taupe);
+    box-shadow: -10px 10px 5px white;
 }
 
 .git,
@@ -642,6 +678,10 @@ h1 > p {
     border: 2px solid white;
     padding: .5em;
     font-size: 1rem;
+}
+
+.modal__background {
+    background-color: var(--pastel-orange);
 }
 
 .modal__close {
