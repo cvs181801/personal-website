@@ -83,11 +83,15 @@ h1 > p {
     background-color: var(--cocoa-taupe);
     display: flex;
     border-radius: 15px;
-    border: 2px solid black;
+    border: 1px solid black;
     justify-content: space-between;
     position: relative;
     padding: .2em;
     justify-content: space-between;
+}
+
+.darkLightMode--label.dark {
+    border: 1px solid white;
 }
 
 .darkLightMode--labelSun {
@@ -108,8 +112,8 @@ h1 > p {
     border-radius: 50%;
     top: .2em;
     left: .2em;
-    width: 1.4em;
-    height: 1.4em;
+    width: 1.5em;
+    height: 1.5em;
     background-color: white;
     border: 1px solid var(--blue);
     position: absolute;
@@ -222,7 +226,7 @@ h1 > p {
 }
 
 .buttons__github.dark {
-    background-color: var(--robins-egg);
+    background-color: var(--pastel-orange);
     color: black;
 }
 
@@ -257,7 +261,7 @@ h1 > p {
 }
 
 .buttons__linkedIn.dark {
-    background-color: var(--light-teal);
+    background-color: var(--orange);
     color: black;
 }
 
@@ -308,7 +312,7 @@ h1 > p {
 }
 
 .subtitle-div.dark {
-    background-color: var(--sky);
+    background-color: rgb(166, 192, 248);
     background-image: url('./pics/clouds13.jpeg');
     background-blend-mode: lighten;
     background-size: cover;
