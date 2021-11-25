@@ -10,6 +10,7 @@ const checkbox = document.querySelector(".darkLightMode--checkbox");
 //darkmode selections
 const body = document.querySelector("body");
 const project1 = document.querySelector(".project1");
+const headerDiv = document.querySelector(".header-div");
 
 console.log(body);
 
@@ -50,6 +51,7 @@ checkbox.addEventListener("change", function(event) {
     event.preventDefault;
     body.classList.toggle("dark");
     project1.classList.toggle("dark");
+    headerDiv.classList.toggle("dark")
 })
 
 

@@ -11,6 +11,7 @@
     --light-teal: rgb(4, 167, 167);
     --watermelon: rgb(253, 4, 87);
     --robins-egg: rgb(135, 248, 248);
+    --pastel-red: rgb(236, 164, 164);
     --ff-accent: 'Comfortaa', sans-serif;
     --ff-main: 'Nunito Sans', sans-serif;
     --ff-accent2: 'Righteous', sans-serif;
@@ -126,6 +127,11 @@ h1 > p {
     letter-spacing: .2rem;
     max-width: 30em;
     margin: 0 .7em 0 .7em;
+}
+
+.header-div.dark {
+    background-color: var(--pastel-red);
+    box-shadow: -10px 10px 5px red;
 }
 
 .subtitles {
@@ -321,6 +327,7 @@ h1 > p {
 
 .project1.dark {
     background-color: var(--cocoa-taupe);
+    box-shadow: -10px 10px 5px white;
 }
 
 .project2 {
@@ -640,7 +647,6 @@ img {
     }
 
     .header-div {
-        background-color: red;
         padding: 2.5em 1em 2.5em 1em;
         border-radius: 7px;
         box-shadow: -10px 10px 5px grey;
