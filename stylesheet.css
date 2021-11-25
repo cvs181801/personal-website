@@ -403,9 +403,8 @@ h1 > p {
 
 .git,
 .git__aqua {
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
     font-size: .7rem;
-    
 }
 
 .git > a,
@@ -424,11 +423,20 @@ h1 > p {
     color: aqua;
 }
 
+/* .git__aqua > a:link,
+.git__aqua > a:hover,
+.git__aqua > a:visited,
+.project__p--viewAqua > a:link,
+.project__p--viewAqua > a:hover,
+.project__p--viewAqua > a:visited {
+
+} */
+
 .git__aqua > a,
 .project__p--viewAqua {
     text-decoration: none;
     color: var(--blue);
-    
+    letter-spacing: .2rem;
 }
 
 .git__aqua > a:link,
