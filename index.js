@@ -8,11 +8,13 @@ const closeModal = document.querySelector(".modal__close");
 const contactMeElements = document.querySelectorAll(".aboutMe");
 const checkbox = document.querySelector(".darkLightMode--checkbox");
 //darkmode selections
-const body = document.querySelector("body");
-const project1 = document.querySelector(".project1");
-const headerDiv = document.querySelector(".header-div");
+const themedElements = document.querySelectorAll(".theme");
+// const body = document.querySelector("body");
+// const project1 = document.querySelector(".project1");
+// const headerDiv = document.querySelector(".header-div");
+// const subtitleDiv = document.querySelector(".subtitle-div");
 
-console.log(body);
+
 
 cubes.forEach(cube => {
             cube.addEventListener("mouseover", function() {
@@ -47,15 +49,17 @@ closeModal.addEventListener("click", function(event) {
     modal.classList.add("hidden");
 })
 
+// checkbox.addEventListener("change", function(event) {
+//     event.preventDefault;
+//     body.classList.toggle("dark");
+//     project1.classList.toggle("dark");
+//     headerDiv.classList.toggle("dark");
+//     subtitleDiv.classList.toggle("dark");
+// })
+
 checkbox.addEventListener("change", function(event) {
-    event.preventDefault;
-    body.classList.toggle("dark");
-    project1.classList.toggle("dark");
-    headerDiv.classList.toggle("dark")
+    themedElements.forEach(element => {
+        element.classList.toggle("dark");
+    })
 })
-
-
-
-
-
 

@@ -3,6 +3,7 @@
     --black: rgb(14, 13, 13);
     --cocoa-taupe: rgb(170, 157, 163);
     --orange: rgb(252, 119, 11);
+    --pastel-orange: rgb(250, 190, 141);
     --blue: rgb(36, 36, 218);
     --sky: rgb(85, 155, 247);
     --burnt-transparent-orange: rgba(252, 119, 11, 0.534);
@@ -218,6 +219,11 @@ h1 > p {
     margin: 0 .7em 0 0;
 }
 
+.buttons__github.dark {
+    background-color: var(--robins-egg);
+    color: black;
+}
+
 .buttons__github > a:visited,
 .buttons__linkedIn > a:visited {
     text-decoration: none;
@@ -236,7 +242,6 @@ h1 > p {
     color: white;
 }
 
-
 .buttons__linkedIn {
     background-color: var(--teal);
     border-radius: 5px;
@@ -247,6 +252,21 @@ h1 > p {
     cursor: pointer;
     color: white;
     margin: .5em .7em 0 0;
+}
+
+.buttons__linkedIn.dark {
+    background-color: var(--light-teal);
+    color: black;
+}
+
+.buttons__github.dark > a:visited,
+.buttons__github.dark > a:hover,
+.buttons__github.dark > a:link,
+.buttons__linkedIn.dark > a:visited,
+.buttons__linkedIn.dark > a:hover,
+.buttons__linkedIn.dark > a:link {
+    text-decoration: none;
+    color: black;
 }
 
 .buttons__resume {
@@ -278,13 +298,17 @@ h1 > p {
     padding: 2.5em .5em 2.5em .5em;
     border-radius: 7px;
     box-shadow: -10px 10px 5px grey;
-    cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-size: .7rem;
     margin: 0 auto 4em auto;
     max-width: 93%;
     text-align: center;
+}
+
+.subtitle-div.dark {
+    background-color: ghostwhite;
+    box-shadow: -10px 10px 5px var(--blue);
 }
 
 .subtitle2-div {
@@ -308,6 +332,10 @@ h1 > p {
     letter-spacing: .2rem;
     font-size: .7rem; 
     transform: rotate(-180deg);
+}
+
+.subtitle3-div.dark {
+    background-color: rgba(85, 155, 247, 0.534);
 }
 
 .subtitle3-div p {
@@ -730,7 +758,6 @@ img {
         padding: 2.5em .5em 2.5em .5em;
         border-radius: 7px;
         box-shadow: -10px 10px 5px grey;
-        cursor: pointer;
         text-transform: uppercase;
         letter-spacing: .2rem;
         font-size: .7rem;
