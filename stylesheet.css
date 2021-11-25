@@ -25,14 +25,14 @@ body {
     margin: 0 auto;
     padding: 0;
     background-color: var(--sky);
-    background: linear-gradient(to bottom, rgba(245, 243, 243, 0.452), rgba(231, 231, 233, 0.7)),
+    background: linear-gradient(to bottom, rgba(15, 122, 245, 0.459), 20%, rgb(231, 231, 233)),
      url('./pics/clouds13.jpeg');
     background-blend-mode: lighten;
     background-size: cover;
     font-family: var(--ff-accent);
     text-align: center;
     color: var(--black);
-    height: 100%;
+    height: 3200px;
 }
 
 h1 {
