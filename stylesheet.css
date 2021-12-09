@@ -18,7 +18,7 @@
     --green: rgb(21, 241, 105);
     --pale-green: rgb(162, 247, 195);
     --teal: rgb(3, 71, 80);
-    --light-teal: rgb(4, 167, 167);
+    --light-teal: rgb(3, 238, 238);
     --watermelon: rgb(253, 4, 87);
     --pale-watermelon: rgb(252, 172, 198);
     --robins-egg: rgb(179, 247, 247);
@@ -508,7 +508,7 @@ h1 > p {
 .git > a,
 .project__p--view > a {
     text-decoration: none;
-    color: aqua;
+    color: var(--blue);
 }
 
 .git > a:link,
@@ -518,17 +518,8 @@ h1 > p {
 .project__p--view > a:hover,
 .project__p--view > a:visited {
     text-decoration: none;
-    color: aqua;
+    color: var(--blue);
 }
-
-/* .git__aqua > a:link,
-.git__aqua > a:hover,
-.git__aqua > a:visited,
-.project__p--viewAqua > a:link,
-.project__p--viewAqua > a:hover,
-.project__p--viewAqua > a:visited {
-
-} */
 
 .git__aqua > a,
 .project__p--viewAqua {
@@ -553,8 +544,8 @@ h1 > p {
 .project4__p,
 .project5__p,
 .project6__p,
-.project7__p,
 .project8__p,
+.project7__p,
 .project9__p,
 .projectlayout__p {
     text-transform: uppercase;
@@ -638,11 +629,19 @@ h1 > p {
 .project5__p > a:visited,
 .project6__p > a:visited,
 .project7__p > a:visited,
+.project7__p > a:visited,
 .project8__p > a:visited,
 .project9__p > a:visited
 .buttons__github > a:link {
     text-decoration: none;
     color: black;
+}
+
+.project7__p--view > a:visited,
+.project7__p--view > a:link,
+.project7__p--view > a:hover {
+    color: var(--blue);
+    text-decoration: none;
 }
 
 .project2__p > a:visited,

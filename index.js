@@ -4,17 +4,20 @@ const subtitle3 = document.querySelector(".subtitle3-div");
 const subtitles = document.querySelectorAll(".subtitles");
 const nameText = document.querySelector(".contact__image--text p");
 const modal = document.querySelector(".modal");
+const project8 = document.querySelector(".project8");
+const project2 = document.querySelector(".project2");
 const closeModal = document.querySelector(".modal__close");
 const contactMeElements = document.querySelectorAll(".aboutMe");
 const checkbox = document.querySelector(".darkLightMode--checkbox");
+const lightText = document.querySelectorAll(".ltText");
+const projectLayout = document.querySelector(".projectlayout");
+const lightAnchors = document.querySelectorAll(".ltAnchor");
 //darkmode selections
 const themedElements = document.querySelectorAll(".theme");
-// const body = document.querySelector("body");
-// const project1 = document.querySelector(".project1");
-// const headerDiv = document.querySelector(".header-div");
-// const subtitleDiv = document.querySelector(".subtitle-div");
 
-
+lightText.forEach(link => {
+    link.style.color = "aqua";
+})
 
 cubes.forEach(cube => {
             cube.addEventListener("mouseover", function() {
@@ -50,8 +53,20 @@ closeModal.addEventListener("click", function(event) {
 })
 
 checkbox.addEventListener("change", function(event) {
+    event.preventDefault();
+    projectLayout.style.color = "black";
+    project8.style.color = "black";
+    project2.style.color = "black";
     themedElements.forEach(element => {
         element.classList.toggle("dark");
     })
+    lightText.forEach(link => {
+        link.style.color = "blue";
+    })
+
+    lightAnchors.forEach(link => {
+        link.style.color = "black";
+    })
+
 })
 
