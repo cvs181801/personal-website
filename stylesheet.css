@@ -7,8 +7,10 @@
     --pastel-orange: rgb(250, 190, 141);
     --blue: rgb(36, 36, 218);
     --sky: rgb(85, 155, 247);
+    --light-sky: rgb(166, 192, 248);
     --burnt-transparent-orange: rgba(252, 119, 11, 0.534);
     --pure-transparent-blue: rgba(85, 155, 247, 0.534);
+    --transparent-orangered: rgba(255, 68, 0, 0.534);
     --green: rgb(21, 241, 105);
     --teal: rgb(3, 71, 80);
     --light-teal: rgb(4, 167, 167);
@@ -45,7 +47,7 @@ body.dark {
     url('./pics/night2.jpg');
     background-blend-mode: multiply;
     background-size: contain;
-    height: 4100px;
+    height: 4600px;
 }
 
 h1 {
@@ -201,7 +203,6 @@ h1 > p {
     left: 50%;
     top: -1em;
     transform-origin: 0 4em; 
-   
 }
 
 .buttons {
@@ -211,7 +212,6 @@ h1 > p {
     font-size: 1rem;
     margin: 1em;
 }
-
 
 .buttons__github {
     background-color: var(--blue);
@@ -226,7 +226,7 @@ h1 > p {
 }
 
 .buttons__github.dark {
-    background-color: var(--pastel-orange);
+    background-color: var(--sky);
     color: black;
 }
 
@@ -261,7 +261,7 @@ h1 > p {
 }
 
 .buttons__linkedIn.dark {
-    background-color: var(--orange);
+    background-color: var(--light-teal);
     color: black;
 }
 
@@ -312,11 +312,11 @@ h1 > p {
 }
 
 .subtitle-div.dark {
-    background-color: rgb(166, 192, 248);
+    background-color: var(--orange);
     background-image: url('./pics/clouds13.jpeg');
     background-blend-mode: lighten;
     background-size: cover;
-    box-shadow: -10px 10px 5px var(--blue);
+    box-shadow: -10px 10px 5px orangered;
 }
 
 .subtitle2-div {
@@ -343,7 +343,7 @@ h1 > p {
 }
 
 .subtitle3-div.dark {
-    background-color: var(--pure-transparent-blue);
+    background-color: var(--transparent-orangered);
 }
 
 .subtitle3-div p {
