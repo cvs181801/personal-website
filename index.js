@@ -30,7 +30,7 @@ cubes.forEach(cube => {
  
 nameText.innerHTML = nameText.innerText.split("").map((character, i) => 
     `<span style="transform:rotate(${i * 8}deg)">${character}</span>`
-).join(""); // is there a way to avoid using inner HTML here???? ***
+).join(""); 
 
 setInterval(() => {
     subtitle3.style.transform = "scale(1.5, 1.5)"
@@ -48,14 +48,6 @@ closeModal.addEventListener("click", function(event) {
     event.preventDefault();
     modal.classList.add("hidden");
 })
-
-// checkbox.addEventListener("change", function(event) {
-//     event.preventDefault;
-//     body.classList.toggle("dark");
-//     project1.classList.toggle("dark");
-//     headerDiv.classList.toggle("dark");
-//     subtitleDiv.classList.toggle("dark");
-// })
 
 checkbox.addEventListener("change", function(event) {
     themedElements.forEach(element => {

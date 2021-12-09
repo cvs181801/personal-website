@@ -1,21 +1,27 @@
 :root {
     --white: rgb(250, 234, 234);
     --black: rgb(14, 13, 13);
+    --light-cocoa-taupe: rgb(212, 211, 211);
     --cocoa-taupe: rgb(170, 157, 163);
     --dark-cocoa-taupe: rgb(133, 125, 128);
+    --earth: rgb(175, 122, 122);
+    --light-earth: rgb(250, 203, 203);
     --orange: rgb(252, 119, 11);
     --pastel-orange: rgb(250, 190, 141);
     --blue: rgb(36, 36, 218);
     --sky: rgb(85, 155, 247);
     --light-sky: rgb(166, 192, 248);
+    --canary: rgb(255, 255, 188);
     --burnt-transparent-orange: rgba(252, 119, 11, 0.534);
     --pure-transparent-blue: rgba(85, 155, 247, 0.534);
     --transparent-orangered: rgba(255, 68, 0, 0.534);
     --green: rgb(21, 241, 105);
+    --pale-green: rgb(162, 247, 195);
     --teal: rgb(3, 71, 80);
     --light-teal: rgb(4, 167, 167);
     --watermelon: rgb(253, 4, 87);
-    --robins-egg: rgb(135, 248, 248);
+    --pale-watermelon: rgb(252, 172, 198);
+    --robins-egg: rgb(179, 247, 247);
     --pastel-red: rgb(236, 164, 164);
     --ff-accent: 'Comfortaa', sans-serif;
     --ff-main: 'Nunito Sans', sans-serif;
@@ -367,8 +373,7 @@ h1 > p {
 }
 
 .project2 {
-    background-color: rgb(36, 36, 218);
-    grid-area: project2;
+    background-color: var(--blue);
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
     box-shadow: -10px 10px 5px grey;
@@ -379,8 +384,8 @@ h1 > p {
 }
 
 .project2.dark {
-    background-color: var(--dark-cocoa-taupe);
-    box-shadow: -10px 10px 5px white;
+    background-color: var(--light-sky);
+    box-shadow: -10px 10px 5px var(--blue);
 }
 
 .project3 {
@@ -395,12 +400,12 @@ h1 > p {
 }
 
 .project3.dark {
-    background-color: var(--cocoa-taupe);
-    box-shadow: -10px 10px 5px white;
+    background-color: var(--canary);
+    box-shadow: -10px 10px 5px yellow;
 }
 
 .project4 {
-    background-color: var(--robins-egg);
+    background-color: aqua;
     grid-area: project4;
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
@@ -411,8 +416,8 @@ h1 > p {
 }
 
 .project4.dark {
-    background-color: var(--cocoa-taupe);
-    box-shadow: -10px 10px 5px white;
+    background-color: var(--robins-egg);
+    box-shadow: -10px 10px 5px aqua;
 }
 
 .project5 {
@@ -427,12 +432,12 @@ h1 > p {
 }
 
 .project5.dark {
-    background-color: var(--cocoa-taupe);
-    box-shadow: -10px 10px 5px white;
+    background-color: var(--pale-green);
+    box-shadow: -10px 10px 5px var(--green);
 }
 
 .project6 {
-    background-color: rgb(175, 122, 122);
+    background-color: var(--earth);
     grid-area: project6;
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
@@ -443,8 +448,8 @@ h1 > p {
 }
 
 .project6.dark {
-    background-color: var(--cocoa-taupe);
-    box-shadow: -10px 10px 5px white;
+    background-color: var(--light-earth);
+    box-shadow: -10px 10px 5px var(--earth);
 }
 
 .project7 {
@@ -459,12 +464,12 @@ h1 > p {
 }
 
 .project7.dark {
-    background-color: var(--cocoa-taupe);
-    box-shadow: -10px 10px 5px white;
+    background-color: var(--pale-watermelon);
+    box-shadow: -10px 10px 5px var(--watermelon);
 }
 
 .project8 {
-    background-color: rgb(3, 71, 80);
+    background-color: var(--teal);
     grid-area: project8;
     border-radius: 7px;
     padding: 2.5em .5em 2.5em .5em;
@@ -475,8 +480,8 @@ h1 > p {
 }
 
 .project8.dark {
-    background-color: var(--dark-cocoa-taupe);
-    box-shadow: -10px 10px 5px white;
+    background-color: var(--light-teal);
+    box-shadow: -10px 10px 5px var(--teal);
 }
 
 .projectlayout {
@@ -490,8 +495,8 @@ h1 > p {
 }
 
 .projectlayout.dark {
-    background-color: var(--dark-cocoa-taupe);
-    box-shadow: -10px 10px 5px white;
+    background-color: var(--light-cocoa-taupe);
+    box-shadow: -10px 10px 5px var(--cocoa-taupe);
 }
 
 .git,
@@ -704,10 +709,6 @@ h1 > p {
     border: 2px solid white;
     padding: .5em;
     font-size: 1rem;
-}
-
-.modal__background.dark {
-    background-color: var(--pastel-orange);
 }
 
 .modal__close {
