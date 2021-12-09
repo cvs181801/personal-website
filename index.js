@@ -12,12 +12,19 @@ const checkbox = document.querySelector(".darkLightMode--checkbox");
 const lightText = document.querySelectorAll(".ltText");
 const projectLayout = document.querySelector(".projectlayout");
 const lightAnchors = document.querySelectorAll(".ltAnchor");
-//darkmode selections
 const themedElements = document.querySelectorAll(".theme");
 
 lightText.forEach(link => {
     link.style.color = "aqua";
 })
+
+lightAnchors.forEach(link => {
+    link.style.color = "white";
+})
+
+    projectLayout.style.color = "white";
+    project8.style.color = "white";
+    project2.style.color = "white";
 
 cubes.forEach(cube => {
             cube.addEventListener("mouseover", function() {
@@ -54,9 +61,17 @@ closeModal.addEventListener("click", function(event) {
 
 checkbox.addEventListener("change", function(event) {
     event.preventDefault();
-    projectLayout.style.color = "black";
-    project8.style.color = "black";
-    project2.style.color = "black";
+
+    if (projectLayout.style.color === "white") {
+        projectLayout.style.color = "black";
+        project8.style.color = "black";
+        project2.style.color = "black";
+    } else {
+        projectLayout.style.color = "white";
+        project8.style.color = "white";
+        project2.style.color = "white";
+    }
+    
     themedElements.forEach(element => {
         element.classList.toggle("dark");
     })
@@ -70,7 +85,12 @@ checkbox.addEventListener("change", function(event) {
     })
 
     lightAnchors.forEach(link => {
-        link.style.color = "black";
+        if (link.style.color === "white") {
+            link.style.color = "black";
+        } else {
+            link.style.color = "white";
+        }
+        
     })
 
     // lightAnchors.forEach(link => {

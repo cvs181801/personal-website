@@ -499,13 +499,6 @@ h1 > p {
     box-shadow: -10px 10px 5px var(--cocoa-taupe);
 }
 
-.ltText,
-.ltText:active,
-.ltText:hover,
-.ltText:link {
-    color: aqua;
-
-}
 
 .git {
     letter-spacing: .2rem;
@@ -668,7 +661,7 @@ h1 > p {
 .project8__p > a:hover,
 .project9__p > a:hover  { 
     text-decoration: none;
-    color: ghostwhite;
+    color: white;
 }
 
 .project2__p > a:hover,
