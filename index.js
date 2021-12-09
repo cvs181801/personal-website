@@ -68,5 +68,12 @@ checkbox.addEventListener("change", function(event) {
         link.style.color = "black";
     })
 
+    // lightAnchors.forEach(link => {
+    //     link.addEventListener("hover", function(event) {
+    //         event.preventDefault();
+    //         link.style.color = "white";
+    //     })
+    // })
+
 })
 
