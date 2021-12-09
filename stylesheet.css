@@ -32,12 +32,12 @@ body {
     background-color: var(--sky);
     background: linear-gradient(to bottom, rgba(15, 122, 245, 0.459), 10%, rgb(231, 231, 233)),
      url('./pics/clouds13.jpeg');
-    background-blend-mode: multiply;
+    background-blend-mode: lighten;
     background-size: cover;
     font-family: var(--ff-accent);
     text-align: center;
     color: var(--black);
-    height: 4100px;
+    height: 4600px;
 }
 
 body.dark {
@@ -479,6 +479,21 @@ h1 > p {
     box-shadow: -10px 10px 5px white;
 }
 
+.projectlayout {
+    background-color: var(--dark-cocoa-taupe);
+    border-radius: 7px;
+    padding: 2.5em .5em 2.5em .5em;
+    box-shadow: -10px 10px 5px grey;
+    letter-spacing: .2rem;
+    margin: 4em auto 0 auto;
+    max-width: 95%;
+}
+
+.projectlayout.dark {
+    background-color: var(--dark-cocoa-taupe);
+    box-shadow: -10px 10px 5px white;
+}
+
 .git,
 .git__aqua {
     letter-spacing: .2rem;
@@ -535,7 +550,8 @@ h1 > p {
 .project6__p,
 .project7__p,
 .project8__p,
-.project9__p {
+.project9__p,
+.projectlayout__p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-size: 1rem;
@@ -604,6 +620,7 @@ h1 > p {
 
 .project2__p > a:link,
 .project8__p > a:link,
+.projectlayout__p > a:link,
 .buttons__resume > a:link,
 .buttons__linkedIn > a:link {
     text-decoration: none;
@@ -624,7 +641,8 @@ h1 > p {
 }
 
 .project2__p > a:visited,
-.project8__p > a:visited 
+.project8__p > a:visited,
+.projectlayout__p > a:visited
 {
     text-decoration: none;
     color: white;
@@ -643,7 +661,8 @@ h1 > p {
 }
 
 .project2__p > a:hover,
-.project8__p > a:hover {
+.project8__p > a:hover,
+.projectlayout__p > a:hover {
     text-decoration: none;
     color: black;
 }
