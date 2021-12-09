@@ -499,8 +499,15 @@ h1 > p {
     box-shadow: -10px 10px 5px var(--cocoa-taupe);
 }
 
-.git,
-.git__aqua {
+.ltText,
+.ltText:active,
+.ltText:hover,
+.ltText:link {
+    color: aqua;
+
+}
+
+.git {
     letter-spacing: .2rem;
     font-size: .7rem;
 }

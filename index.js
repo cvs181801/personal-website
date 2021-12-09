@@ -60,8 +60,13 @@ checkbox.addEventListener("change", function(event) {
     themedElements.forEach(element => {
         element.classList.toggle("dark");
     })
+
     lightText.forEach(link => {
-        link.style.color = "blue";
+        if(link.style.color === "aqua") {
+            link.style.color = "blue";
+        } else {
+            link.style.color = "aqua"
+        }
     })
 
     lightAnchors.forEach(link => {
